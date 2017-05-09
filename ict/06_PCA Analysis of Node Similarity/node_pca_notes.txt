@@ -1,0 +1,44 @@
+node_list = ["hw004", "hw089", "hw062", "hw073", "hw103", "hw114", "hw106"]
+
+
+
+PCA Analysis of features on os table:
+
+node = all nodes:
+Those features are recommended to retain as PCA: ['cpu_usage']
+
+node = 'hw089':
+Those features are recommended to retain as PCA: ['cpu_usage']
+
+node = 'hw004':
+Those features are recommended to retain as PCA: ['cpu_usage', 'mem_usage', 'ioWaitRatio', 'weighted_io', 'diskR_band', 'diskW_band']
+
+node = ["hw062", "hw073", "hw103", "hw114", "hw106"]:
+Those features are recommended to retain as PCA: ['cpu_usage', 'mem_usage', 'ioWaitRatio', 'weighted_io', 'diskR_band', 'diskW_band', 'netS_band']*3
+Those features are recommended to retain as PCA: ['cpu_usage', 'mem_usage', 'ioWaitRatio', 'diskR_band', 'netR_band', 'netS_band', 'diskW_band']
+Those features are recommended to retain as PCA: ['cpu_usage', 'mem_usage', 'ioWaitRatio', 'weighted_io', 'diskR_band', 'netR_band', 'netS_band']
+
+
+
+PCA Analysis of features on log table:
+
+node = all nodes:
+Those features are recommended to retain as PCA: ['ipc', 'L2_MPKI', 'L3_MPKI', 'DTLB_MPKI', 'ITLB_MPKI', 'L1I_MPKI', 'MUL_Ratio', 'FP_Ratio', 'BR_Ratio', 'STORE_Ratio']
+
+node = 'hw004':
+Those features are recommended to retain as PCA: ['ipc', 'L2_MPKI', 'L3_MPKI', 'DTLB_MPKI', 'ITLB_MPKI', 'L1I_MPKI', 'MUL_Ratio']
+
+node = 'hw089', 'hw062', 'hw114':
+Those features are recommended to retain as PCA: ['ipc', 'L2_MPKI', 'L3_MPKI', 'DTLB_MPKI', 'ITLB_MPKI', 'L1I_MPKI', 'MUL_Ratio', 'DIV_Ratio', 'FP_Ratio']
+
+node = 'hw073':
+Those features are recommended to retain as PCA: ['ipc', 'L2_MPKI', 'L3_MPKI', 'DTLB_MPKI', 'ITLB_MPKI', 'L1I_MPKI', 'MUL_Ratio', 'DIV_Ratio', 'LOAD_Ratio']
+
+node = 'hw103':
+Those features are recommended to retain as PCA: ['ipc', 'L2_MPKI', 'DTLB_MPKI', 'L3_MPKI', 'ITLB_MPKI', 'L1I_MPKI', 'MUL_Ratio', 'FP_Ratio', 'DIV_Ratio']
+
+node = 'hw106':
+hose features are recommended to retain as PCA: ['ipc', 'L2_MPKI', 'L3_MPKI', 'DTLB_MPKI', 'ITLB_MPKI', 'L1I_MPKI', 'MUL_Ratio', 'DIV_Ratio', 'STORE_Ratio']
+
+
+
