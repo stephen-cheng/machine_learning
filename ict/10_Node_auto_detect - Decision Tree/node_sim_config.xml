@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-	<sim_threshold>0.9</sim_threshold>
+	<sim_threshold>0.5</sim_threshold>
 	<k_kmeans>2</k_kmeans>
 	<dis_knn>0.5</dis_knn>
 	<lof_distance>0.2</lof_distance>
 	<lof_degree>1.02</lof_degree>
 	<re_bins>100</re_bins>
-	<re_threshold>0.25</re_threshold>
 </config>
