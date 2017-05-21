@@ -1,0 +1,17 @@
+rs_cf_movie.py
+
+Number of users = 943 | Number of movies = 1682
+==========================content based collaborative filtering===========================
+Item prediction:  [ 0.352634    0.36401191  0.37816726 ...,  0.42576568  0.41601063
+  0.42355741]
+User prediction:  [ 1.60211677  0.54394632  0.4812843  ...,  0.27480569  0.27471459
+  0.27234309]
+User based CF RMSE: 3.12408128541
+Item based CF RMSe: 3.45176879722
+==========================model based collaborative filtering===========================
+The sparsity level of MovieLen100K is 93.7%
+User-based CF MSE: 2.71722030838
+
+
+
+
