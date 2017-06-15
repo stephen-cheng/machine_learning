@@ -1,0 +1,19 @@
+train explained variance ratio (first 5 components): 
+[ 0.76057087  0.19704174  0.02280473  0.00820668  0.00489209]
+confidence interval: 0.993516107874
+
+test explained variance ratio (first 5 components): 
+[ 0.83819379  0.073899    0.03343538  0.02036826  0.01050584]
+confidence interval: 0.976402270184
+
+pca feature index:  [83, 41, 39, 64, 66]
+
+knn prediction accuracy score:  0.448640483384
+svm-linear prediction accuracy score:  0.448640483384
+svm-rbf prediction accuracy score:  0.444108761329
+decision tree prediction accuracy score:  0.448640483384
+random forest prediction accuracy score:  0.444108761329
+neural networks prediction accuracy score:  0.462235649547
+adaBoost prediction accuracy score:  0.441087613293
+naive bayes prediction accuracy score:  0.622356495468
+quadratic discriminant analysis prediction accuracy score:  0.448640483384
