@@ -1,3 +1,3 @@
-# machine-learning
+# machine-learning demos
  
  
