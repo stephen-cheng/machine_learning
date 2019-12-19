@@ -4,7 +4,7 @@
 * Logistic Regression
 * KNN
 * SVM
-* SVM
+* SVD
 * Naive Bayes
 * Decision Tree
 * K-means
